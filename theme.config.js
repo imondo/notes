@@ -1,0 +1,29 @@
+const YEAR = new Date().getFullYear()
+
+export default {
+  readMore: '↗',
+  darkMode: true,
+  navs: [
+    {
+      url: 'https://imondo.cn',
+      name: '关于'
+    }
+  ],
+  footer: (
+    <small style={{ display: 'block', marginTop: '8rem' }}>
+      <time>{YEAR}</time> © Mondo.
+      <a href="/feed.xml">RSS</a>
+      <style jsx>{`
+        a {
+          float: right;
+        }
+        @media screen and (max-width: 480px) {
+          article {
+            padding-top: 2rem;
+            padding-bottom: 4rem;
+          }
+        }
+      `}</style>
+    </small>
+  )
+}
