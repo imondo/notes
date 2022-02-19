@@ -4,7 +4,8 @@ export default {
   readMore: '↗',
   darkMode: true,
   cusdis: {
-    appId: CUSDIS_APP_ID
+    appId: CUSDIS_APP_ID,
+    lang: 'zh-cn'
   },
   navs: [
     {
