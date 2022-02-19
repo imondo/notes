@@ -1,12 +1,15 @@
 const YEAR = new Date().getFullYear()
-
+const CUSDIS_APP_ID = 'bd47ddfd-ea05-4050-a3f4-ef71bd53be22'
 export default {
   readMore: '↗',
   darkMode: true,
+  cusdis: {
+    appId: CUSDIS_APP_ID
+  },
   navs: [
     {
       url: 'https://imondo.cn',
-      name: '关于'
+      name: 'Home'
     }
   ],
   footer: (

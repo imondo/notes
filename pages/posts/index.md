@@ -1,5 +1,5 @@
 ---
 type: posts
-title: 博客
+title: Blog
 ---
 
